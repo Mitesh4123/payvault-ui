@@ -1,0 +1,37 @@
+.filter-tabs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.filter-tab {
+  padding: 6px 16px;
+  border-radius: 99px;
+  font-size: 13px;
+  font-weight: 500;
+  background: var(--white);
+  color: var(--gray-600);
+  border: 1.5px solid var(--gray-200);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.filter-tab:hover { background: var(--gray-100); color: var(--black); }
+.filter-tab--active {
+  background: var(--black);
+  color: var(--white);
+  border-color: var(--black);
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.page-info {
+  font-size: 13px;
+  color: var(--gray-600);
+}
