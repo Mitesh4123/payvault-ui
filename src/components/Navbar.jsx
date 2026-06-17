@@ -1,7 +1,7 @@
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import './Navbar.css';
-import logoImg from 'C:/Users/ASUS/OneDrive/Desktop/Project/payvault-ui/safe-box.png';
+import logoImg from '../assets/safe-box.png';
 export default function Navbar() {
   const { user, logout } = useAuth();
   const navigate = useNavigate();
